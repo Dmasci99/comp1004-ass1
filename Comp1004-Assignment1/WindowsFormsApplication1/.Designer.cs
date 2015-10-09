@@ -1,6 +1,6 @@
 ﻿namespace WindowsFormsApplication1
 {
-    partial class Form1
+    partial class RobellusForm
     {
         /// <summary>
         /// Required designer variable.
@@ -32,26 +32,26 @@
             this.iPhoneGroupBox = new System.Windows.Forms.GroupBox();
             this.iPhonePictureBox = new System.Windows.Forms.PictureBox();
             this.capacityGroupBox = new System.Windows.Forms.GroupBox();
-            this.radioButton8 = new System.Windows.Forms.RadioButton();
-            this.radioButton7 = new System.Windows.Forms.RadioButton();
-            this.radioButton6 = new System.Windows.Forms.RadioButton();
+            this.capacity128RadioButton = new System.Windows.Forms.RadioButton();
+            this.capacity64RadioButton = new System.Windows.Forms.RadioButton();
+            this.capacity16RadioButton = new System.Windows.Forms.RadioButton();
             this.colourGroupBox = new System.Windows.Forms.GroupBox();
-            this.radioButton5 = new System.Windows.Forms.RadioButton();
-            this.radioButton4 = new System.Windows.Forms.RadioButton();
-            this.radioButton3 = new System.Windows.Forms.RadioButton();
+            this.silverRadioButton = new System.Windows.Forms.RadioButton();
+            this.goldRadioButton = new System.Windows.Forms.RadioButton();
+            this.spaceGreyRadioButton = new System.Windows.Forms.RadioButton();
             this.modelGroupBox = new System.Windows.Forms.GroupBox();
-            this.radioButton2 = new System.Windows.Forms.RadioButton();
-            this.radioButton1 = new System.Windows.Forms.RadioButton();
+            this.iPhone6SRadioButton = new System.Windows.Forms.RadioButton();
+            this.iPhone6RadioButton = new System.Windows.Forms.RadioButton();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.accessoriesGroupBox = new System.Windows.Forms.GroupBox();
-            this.radioButton11 = new System.Windows.Forms.RadioButton();
-            this.radioButton10 = new System.Windows.Forms.RadioButton();
-            this.radioButton9 = new System.Windows.Forms.RadioButton();
+            this.screenProtectorRadioButton = new System.Windows.Forms.RadioButton();
+            this.leatherCaseRadioButton = new System.Windows.Forms.RadioButton();
+            this.appleCareRadioButton = new System.Windows.Forms.RadioButton();
             this.costGroupBox = new System.Windows.Forms.GroupBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.totalTextBox = new System.Windows.Forms.TextBox();
+            this.taxTextBox = new System.Windows.Forms.TextBox();
+            this.subtotalTextBox = new System.Windows.Forms.TextBox();
             this.tradeInTextBox = new System.Windows.Forms.TextBox();
             this.accessoriesTextBox = new System.Windows.Forms.TextBox();
             this.basePriceTextBox = new System.Windows.Forms.TextBox();
@@ -82,14 +82,13 @@
             this.iPhoneGroupBox.Controls.Add(this.colourGroupBox);
             this.iPhoneGroupBox.Controls.Add(this.modelGroupBox);
             this.iPhoneGroupBox.Font = new System.Drawing.Font("Lato", 11.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.iPhoneGroupBox.ForeColor = System.Drawing.SystemColors.WindowFrame;
+            this.iPhoneGroupBox.ForeColor = System.Drawing.SystemColors.Highlight;
             this.iPhoneGroupBox.Location = new System.Drawing.Point(25, 74);
             this.iPhoneGroupBox.Name = "iPhoneGroupBox";
             this.iPhoneGroupBox.Size = new System.Drawing.Size(341, 409);
             this.iPhoneGroupBox.TabIndex = 1;
             this.iPhoneGroupBox.TabStop = false;
             this.iPhoneGroupBox.Text = "iPhone Selection";
-            this.iPhoneGroupBox.Enter += new System.EventHandler(this.iPhoneGroupBox_Enter);
             // 
             // iPhonePictureBox
             // 
@@ -101,10 +100,10 @@
             // 
             // capacityGroupBox
             // 
-            this.capacityGroupBox.Controls.Add(this.radioButton8);
-            this.capacityGroupBox.Controls.Add(this.radioButton7);
-            this.capacityGroupBox.Controls.Add(this.radioButton6);
-            this.capacityGroupBox.ForeColor = System.Drawing.SystemColors.WindowFrame;
+            this.capacityGroupBox.Controls.Add(this.capacity128RadioButton);
+            this.capacityGroupBox.Controls.Add(this.capacity64RadioButton);
+            this.capacityGroupBox.Controls.Add(this.capacity16RadioButton);
+            this.capacityGroupBox.ForeColor = System.Drawing.SystemColors.Highlight;
             this.capacityGroupBox.Location = new System.Drawing.Point(18, 264);
             this.capacityGroupBox.Name = "capacityGroupBox";
             this.capacityGroupBox.Size = new System.Drawing.Size(141, 114);
@@ -112,54 +111,54 @@
             this.capacityGroupBox.TabStop = false;
             this.capacityGroupBox.Text = "Capacity";
             // 
-            // radioButton8
+            // capacity128RadioButton
             // 
-            this.radioButton8.AutoSize = true;
-            this.radioButton8.Font = new System.Drawing.Font("Lato", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton8.ForeColor = System.Drawing.SystemColors.WindowText;
-            this.radioButton8.Location = new System.Drawing.Point(6, 81);
-            this.radioButton8.Name = "radioButton8";
-            this.radioButton8.Padding = new System.Windows.Forms.Padding(5, 0, 0, 0);
-            this.radioButton8.Size = new System.Drawing.Size(76, 20);
-            this.radioButton8.TabIndex = 2;
-            this.radioButton8.TabStop = true;
-            this.radioButton8.Text = "12&8 GB";
-            this.radioButton8.UseVisualStyleBackColor = true;
+            this.capacity128RadioButton.AutoSize = true;
+            this.capacity128RadioButton.Font = new System.Drawing.Font("Lato", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.capacity128RadioButton.ForeColor = System.Drawing.SystemColors.WindowText;
+            this.capacity128RadioButton.Location = new System.Drawing.Point(6, 81);
+            this.capacity128RadioButton.Name = "capacity128RadioButton";
+            this.capacity128RadioButton.Padding = new System.Windows.Forms.Padding(5, 0, 0, 0);
+            this.capacity128RadioButton.Size = new System.Drawing.Size(76, 20);
+            this.capacity128RadioButton.TabIndex = 2;
+            this.capacity128RadioButton.TabStop = true;
+            this.capacity128RadioButton.Text = "12&8 GB";
+            this.capacity128RadioButton.UseVisualStyleBackColor = true;
             // 
-            // radioButton7
+            // capacity64RadioButton
             // 
-            this.radioButton7.AutoSize = true;
-            this.radioButton7.Font = new System.Drawing.Font("Lato", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton7.ForeColor = System.Drawing.SystemColors.WindowText;
-            this.radioButton7.Location = new System.Drawing.Point(6, 53);
-            this.radioButton7.Name = "radioButton7";
-            this.radioButton7.Padding = new System.Windows.Forms.Padding(5, 0, 0, 0);
-            this.radioButton7.Size = new System.Drawing.Size(68, 20);
-            this.radioButton7.TabIndex = 1;
-            this.radioButton7.TabStop = true;
-            this.radioButton7.Text = "6&4 GB";
-            this.radioButton7.UseVisualStyleBackColor = true;
+            this.capacity64RadioButton.AutoSize = true;
+            this.capacity64RadioButton.Font = new System.Drawing.Font("Lato", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.capacity64RadioButton.ForeColor = System.Drawing.SystemColors.WindowText;
+            this.capacity64RadioButton.Location = new System.Drawing.Point(6, 53);
+            this.capacity64RadioButton.Name = "capacity64RadioButton";
+            this.capacity64RadioButton.Padding = new System.Windows.Forms.Padding(5, 0, 0, 0);
+            this.capacity64RadioButton.Size = new System.Drawing.Size(68, 20);
+            this.capacity64RadioButton.TabIndex = 1;
+            this.capacity64RadioButton.TabStop = true;
+            this.capacity64RadioButton.Text = "6&4 GB";
+            this.capacity64RadioButton.UseVisualStyleBackColor = true;
             // 
-            // radioButton6
+            // capacity16RadioButton
             // 
-            this.radioButton6.AutoSize = true;
-            this.radioButton6.Font = new System.Drawing.Font("Lato", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton6.ForeColor = System.Drawing.SystemColors.WindowText;
-            this.radioButton6.Location = new System.Drawing.Point(6, 25);
-            this.radioButton6.Name = "radioButton6";
-            this.radioButton6.Padding = new System.Windows.Forms.Padding(5, 0, 0, 0);
-            this.radioButton6.Size = new System.Drawing.Size(68, 20);
-            this.radioButton6.TabIndex = 0;
-            this.radioButton6.TabStop = true;
-            this.radioButton6.Text = "&16 GB";
-            this.radioButton6.UseVisualStyleBackColor = true;
+            this.capacity16RadioButton.AutoSize = true;
+            this.capacity16RadioButton.Font = new System.Drawing.Font("Lato", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.capacity16RadioButton.ForeColor = System.Drawing.SystemColors.WindowText;
+            this.capacity16RadioButton.Location = new System.Drawing.Point(6, 25);
+            this.capacity16RadioButton.Name = "capacity16RadioButton";
+            this.capacity16RadioButton.Padding = new System.Windows.Forms.Padding(5, 0, 0, 0);
+            this.capacity16RadioButton.Size = new System.Drawing.Size(68, 20);
+            this.capacity16RadioButton.TabIndex = 0;
+            this.capacity16RadioButton.TabStop = true;
+            this.capacity16RadioButton.Text = "&16 GB";
+            this.capacity16RadioButton.UseVisualStyleBackColor = true;
             // 
             // colourGroupBox
             // 
-            this.colourGroupBox.Controls.Add(this.radioButton5);
-            this.colourGroupBox.Controls.Add(this.radioButton4);
-            this.colourGroupBox.Controls.Add(this.radioButton3);
-            this.colourGroupBox.ForeColor = System.Drawing.SystemColors.WindowFrame;
+            this.colourGroupBox.Controls.Add(this.silverRadioButton);
+            this.colourGroupBox.Controls.Add(this.goldRadioButton);
+            this.colourGroupBox.Controls.Add(this.spaceGreyRadioButton);
+            this.colourGroupBox.ForeColor = System.Drawing.SystemColors.Highlight;
             this.colourGroupBox.Location = new System.Drawing.Point(18, 138);
             this.colourGroupBox.Name = "colourGroupBox";
             this.colourGroupBox.Size = new System.Drawing.Size(141, 114);
@@ -167,53 +166,53 @@
             this.colourGroupBox.TabStop = false;
             this.colourGroupBox.Text = "Colour";
             // 
-            // radioButton5
+            // silverRadioButton
             // 
-            this.radioButton5.AutoSize = true;
-            this.radioButton5.Font = new System.Drawing.Font("Lato", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton5.ForeColor = System.Drawing.SystemColors.WindowText;
-            this.radioButton5.Location = new System.Drawing.Point(6, 81);
-            this.radioButton5.Name = "radioButton5";
-            this.radioButton5.Padding = new System.Windows.Forms.Padding(5, 0, 0, 0);
-            this.radioButton5.Size = new System.Drawing.Size(63, 20);
-            this.radioButton5.TabIndex = 2;
-            this.radioButton5.TabStop = true;
-            this.radioButton5.Text = "Silve&r";
-            this.radioButton5.UseVisualStyleBackColor = true;
+            this.silverRadioButton.AutoSize = true;
+            this.silverRadioButton.Font = new System.Drawing.Font("Lato", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.silverRadioButton.ForeColor = System.Drawing.SystemColors.WindowText;
+            this.silverRadioButton.Location = new System.Drawing.Point(6, 81);
+            this.silverRadioButton.Name = "silverRadioButton";
+            this.silverRadioButton.Padding = new System.Windows.Forms.Padding(5, 0, 0, 0);
+            this.silverRadioButton.Size = new System.Drawing.Size(63, 20);
+            this.silverRadioButton.TabIndex = 2;
+            this.silverRadioButton.TabStop = true;
+            this.silverRadioButton.Text = "Silve&r";
+            this.silverRadioButton.UseVisualStyleBackColor = true;
             // 
-            // radioButton4
+            // goldRadioButton
             // 
-            this.radioButton4.AutoSize = true;
-            this.radioButton4.Font = new System.Drawing.Font("Lato", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton4.ForeColor = System.Drawing.SystemColors.WindowText;
-            this.radioButton4.Location = new System.Drawing.Point(6, 53);
-            this.radioButton4.Name = "radioButton4";
-            this.radioButton4.Padding = new System.Windows.Forms.Padding(5, 0, 0, 0);
-            this.radioButton4.Size = new System.Drawing.Size(58, 20);
-            this.radioButton4.TabIndex = 1;
-            this.radioButton4.TabStop = true;
-            this.radioButton4.Text = "G&old";
-            this.radioButton4.UseVisualStyleBackColor = true;
+            this.goldRadioButton.AutoSize = true;
+            this.goldRadioButton.Font = new System.Drawing.Font("Lato", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.goldRadioButton.ForeColor = System.Drawing.SystemColors.WindowText;
+            this.goldRadioButton.Location = new System.Drawing.Point(6, 53);
+            this.goldRadioButton.Name = "goldRadioButton";
+            this.goldRadioButton.Padding = new System.Windows.Forms.Padding(5, 0, 0, 0);
+            this.goldRadioButton.Size = new System.Drawing.Size(58, 20);
+            this.goldRadioButton.TabIndex = 1;
+            this.goldRadioButton.TabStop = true;
+            this.goldRadioButton.Text = "G&old";
+            this.goldRadioButton.UseVisualStyleBackColor = true;
             // 
-            // radioButton3
+            // spaceGreyRadioButton
             // 
-            this.radioButton3.AutoSize = true;
-            this.radioButton3.Font = new System.Drawing.Font("Lato", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton3.ForeColor = System.Drawing.SystemColors.WindowText;
-            this.radioButton3.Location = new System.Drawing.Point(6, 25);
-            this.radioButton3.Name = "radioButton3";
-            this.radioButton3.Padding = new System.Windows.Forms.Padding(5, 0, 0, 0);
-            this.radioButton3.Size = new System.Drawing.Size(97, 20);
-            this.radioButton3.TabIndex = 0;
-            this.radioButton3.TabStop = true;
-            this.radioButton3.Text = "Space &Grey";
-            this.radioButton3.UseVisualStyleBackColor = true;
+            this.spaceGreyRadioButton.AutoSize = true;
+            this.spaceGreyRadioButton.Font = new System.Drawing.Font("Lato", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.spaceGreyRadioButton.ForeColor = System.Drawing.SystemColors.WindowText;
+            this.spaceGreyRadioButton.Location = new System.Drawing.Point(6, 25);
+            this.spaceGreyRadioButton.Name = "spaceGreyRadioButton";
+            this.spaceGreyRadioButton.Padding = new System.Windows.Forms.Padding(5, 0, 0, 0);
+            this.spaceGreyRadioButton.Size = new System.Drawing.Size(97, 20);
+            this.spaceGreyRadioButton.TabIndex = 0;
+            this.spaceGreyRadioButton.TabStop = true;
+            this.spaceGreyRadioButton.Text = "Space &Grey";
+            this.spaceGreyRadioButton.UseVisualStyleBackColor = true;
             // 
             // modelGroupBox
             // 
-            this.modelGroupBox.Controls.Add(this.radioButton2);
-            this.modelGroupBox.Controls.Add(this.radioButton1);
-            this.modelGroupBox.ForeColor = System.Drawing.SystemColors.WindowFrame;
+            this.modelGroupBox.Controls.Add(this.iPhone6SRadioButton);
+            this.modelGroupBox.Controls.Add(this.iPhone6RadioButton);
+            this.modelGroupBox.ForeColor = System.Drawing.SystemColors.Highlight;
             this.modelGroupBox.Location = new System.Drawing.Point(18, 36);
             this.modelGroupBox.Name = "modelGroupBox";
             this.modelGroupBox.Size = new System.Drawing.Size(141, 90);
@@ -221,39 +220,40 @@
             this.modelGroupBox.TabStop = false;
             this.modelGroupBox.Text = "Model";
             // 
-            // radioButton2
+            // iPhone6SRadioButton
             // 
-            this.radioButton2.AutoSize = true;
-            this.radioButton2.Font = new System.Drawing.Font("Lato", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton2.ForeColor = System.Drawing.SystemColors.WindowText;
-            this.radioButton2.Location = new System.Drawing.Point(6, 54);
-            this.radioButton2.Name = "radioButton2";
-            this.radioButton2.Padding = new System.Windows.Forms.Padding(5, 0, 0, 0);
-            this.radioButton2.Size = new System.Drawing.Size(88, 20);
-            this.radioButton2.TabIndex = 1;
-            this.radioButton2.TabStop = true;
-            this.radioButton2.Text = "iPhone 6&S";
-            this.radioButton2.UseVisualStyleBackColor = true;
+            this.iPhone6SRadioButton.AutoSize = true;
+            this.iPhone6SRadioButton.Font = new System.Drawing.Font("Lato", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.iPhone6SRadioButton.ForeColor = System.Drawing.SystemColors.WindowText;
+            this.iPhone6SRadioButton.Location = new System.Drawing.Point(6, 54);
+            this.iPhone6SRadioButton.Name = "iPhone6SRadioButton";
+            this.iPhone6SRadioButton.Padding = new System.Windows.Forms.Padding(5, 0, 0, 0);
+            this.iPhone6SRadioButton.Size = new System.Drawing.Size(88, 20);
+            this.iPhone6SRadioButton.TabIndex = 1;
+            this.iPhone6SRadioButton.TabStop = true;
+            this.iPhone6SRadioButton.Text = "iPhone 6&S";
+            this.iPhone6SRadioButton.UseVisualStyleBackColor = true;
             // 
-            // radioButton1
+            // iPhone6RadioButton
             // 
-            this.radioButton1.AutoSize = true;
-            this.radioButton1.Font = new System.Drawing.Font("Lato", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton1.ForeColor = System.Drawing.SystemColors.WindowText;
-            this.radioButton1.Location = new System.Drawing.Point(6, 26);
-            this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Padding = new System.Windows.Forms.Padding(5, 0, 0, 0);
-            this.radioButton1.Size = new System.Drawing.Size(81, 20);
-            this.radioButton1.TabIndex = 0;
-            this.radioButton1.TabStop = true;
-            this.radioButton1.Text = "iPhone &6";
-            this.radioButton1.UseVisualStyleBackColor = true;
+            this.iPhone6RadioButton.AutoSize = true;
+            this.iPhone6RadioButton.Font = new System.Drawing.Font("Lato", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.iPhone6RadioButton.ForeColor = System.Drawing.SystemColors.WindowText;
+            this.iPhone6RadioButton.Location = new System.Drawing.Point(6, 26);
+            this.iPhone6RadioButton.Name = "iPhone6RadioButton";
+            this.iPhone6RadioButton.Padding = new System.Windows.Forms.Padding(5, 0, 0, 0);
+            this.iPhone6RadioButton.Size = new System.Drawing.Size(81, 20);
+            this.iPhone6RadioButton.TabIndex = 0;
+            this.iPhone6RadioButton.TabStop = true;
+            this.iPhone6RadioButton.Text = "iPhone &6";
+            this.iPhone6RadioButton.UseVisualStyleBackColor = true;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Georgia", 21F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(75, 19);
+            this.label1.ForeColor = System.Drawing.SystemColors.Highlight;
+            this.label1.Location = new System.Drawing.Point(95, 19);
             this.label1.Name = "label1";
             this.label1.Padding = new System.Windows.Forms.Padding(5);
             this.label1.Size = new System.Drawing.Size(440, 42);
@@ -269,15 +269,14 @@
             this.label2.Size = new System.Drawing.Size(150, 13);
             this.label2.TabIndex = 0;
             this.label2.Text = "Sascha Friesen | Daniel Masci";
-            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // accessoriesGroupBox
             // 
-            this.accessoriesGroupBox.Controls.Add(this.radioButton11);
-            this.accessoriesGroupBox.Controls.Add(this.radioButton10);
-            this.accessoriesGroupBox.Controls.Add(this.radioButton9);
+            this.accessoriesGroupBox.Controls.Add(this.screenProtectorRadioButton);
+            this.accessoriesGroupBox.Controls.Add(this.leatherCaseRadioButton);
+            this.accessoriesGroupBox.Controls.Add(this.appleCareRadioButton);
             this.accessoriesGroupBox.Font = new System.Drawing.Font("Lato", 11.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.accessoriesGroupBox.ForeColor = System.Drawing.SystemColors.WindowFrame;
+            this.accessoriesGroupBox.ForeColor = System.Drawing.SystemColors.Highlight;
             this.accessoriesGroupBox.Location = new System.Drawing.Point(391, 74);
             this.accessoriesGroupBox.Name = "accessoriesGroupBox";
             this.accessoriesGroupBox.Size = new System.Drawing.Size(216, 126);
@@ -285,56 +284,53 @@
             this.accessoriesGroupBox.TabStop = false;
             this.accessoriesGroupBox.Text = "Accessories";
             // 
-            // radioButton11
+            // screenProtectorRadioButton
             // 
-            this.radioButton11.AutoSize = true;
-            this.radioButton11.Font = new System.Drawing.Font("Lato", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton11.ForeColor = System.Drawing.SystemColors.WindowText;
-            this.radioButton11.Location = new System.Drawing.Point(6, 85);
-            this.radioButton11.Name = "radioButton11";
-            this.radioButton11.Padding = new System.Windows.Forms.Padding(5, 0, 0, 0);
-            this.radioButton11.Size = new System.Drawing.Size(128, 20);
-            this.radioButton11.TabIndex = 2;
-            this.radioButton11.TabStop = true;
-            this.radioButton11.Text = "&Screen Protector";
-            this.radioButton11.UseVisualStyleBackColor = true;
-            this.radioButton11.CheckedChanged += new System.EventHandler(this.radioButton11_CheckedChanged);
+            this.screenProtectorRadioButton.AutoSize = true;
+            this.screenProtectorRadioButton.Font = new System.Drawing.Font("Lato", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.screenProtectorRadioButton.ForeColor = System.Drawing.SystemColors.WindowText;
+            this.screenProtectorRadioButton.Location = new System.Drawing.Point(6, 85);
+            this.screenProtectorRadioButton.Name = "screenProtectorRadioButton";
+            this.screenProtectorRadioButton.Padding = new System.Windows.Forms.Padding(5, 0, 0, 0);
+            this.screenProtectorRadioButton.Size = new System.Drawing.Size(128, 20);
+            this.screenProtectorRadioButton.TabIndex = 2;
+            this.screenProtectorRadioButton.TabStop = true;
+            this.screenProtectorRadioButton.Text = "&Screen Protector";
+            this.screenProtectorRadioButton.UseVisualStyleBackColor = true;
             // 
-            // radioButton10
+            // leatherCaseRadioButton
             // 
-            this.radioButton10.AutoSize = true;
-            this.radioButton10.Font = new System.Drawing.Font("Lato", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton10.ForeColor = System.Drawing.SystemColors.WindowText;
-            this.radioButton10.Location = new System.Drawing.Point(6, 57);
-            this.radioButton10.Name = "radioButton10";
-            this.radioButton10.Padding = new System.Windows.Forms.Padding(5, 0, 0, 0);
-            this.radioButton10.Size = new System.Drawing.Size(108, 20);
-            this.radioButton10.TabIndex = 1;
-            this.radioButton10.TabStop = true;
-            this.radioButton10.Text = "L&eather Case";
-            this.radioButton10.UseVisualStyleBackColor = true;
-            this.radioButton10.CheckedChanged += new System.EventHandler(this.radioButton10_CheckedChanged);
+            this.leatherCaseRadioButton.AutoSize = true;
+            this.leatherCaseRadioButton.Font = new System.Drawing.Font("Lato", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.leatherCaseRadioButton.ForeColor = System.Drawing.SystemColors.WindowText;
+            this.leatherCaseRadioButton.Location = new System.Drawing.Point(6, 57);
+            this.leatherCaseRadioButton.Name = "leatherCaseRadioButton";
+            this.leatherCaseRadioButton.Padding = new System.Windows.Forms.Padding(5, 0, 0, 0);
+            this.leatherCaseRadioButton.Size = new System.Drawing.Size(108, 20);
+            this.leatherCaseRadioButton.TabIndex = 1;
+            this.leatherCaseRadioButton.TabStop = true;
+            this.leatherCaseRadioButton.Text = "L&eather Case";
+            this.leatherCaseRadioButton.UseVisualStyleBackColor = true;
             // 
-            // radioButton9
+            // appleCareRadioButton
             // 
-            this.radioButton9.AutoSize = true;
-            this.radioButton9.Font = new System.Drawing.Font("Lato", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton9.ForeColor = System.Drawing.SystemColors.WindowText;
-            this.radioButton9.Location = new System.Drawing.Point(7, 29);
-            this.radioButton9.Name = "radioButton9";
-            this.radioButton9.Padding = new System.Windows.Forms.Padding(5, 0, 0, 0);
-            this.radioButton9.Size = new System.Drawing.Size(183, 20);
-            this.radioButton9.TabIndex = 0;
-            this.radioButton9.TabStop = true;
-            this.radioButton9.Text = "&AppleCare Protection Plan";
-            this.radioButton9.UseVisualStyleBackColor = true;
-            this.radioButton9.CheckedChanged += new System.EventHandler(this.radioButton9_CheckedChanged);
+            this.appleCareRadioButton.AutoSize = true;
+            this.appleCareRadioButton.Font = new System.Drawing.Font("Lato", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.appleCareRadioButton.ForeColor = System.Drawing.SystemColors.WindowText;
+            this.appleCareRadioButton.Location = new System.Drawing.Point(7, 29);
+            this.appleCareRadioButton.Name = "appleCareRadioButton";
+            this.appleCareRadioButton.Padding = new System.Windows.Forms.Padding(5, 0, 0, 0);
+            this.appleCareRadioButton.Size = new System.Drawing.Size(183, 20);
+            this.appleCareRadioButton.TabIndex = 0;
+            this.appleCareRadioButton.TabStop = true;
+            this.appleCareRadioButton.Text = "&AppleCare Protection Plan";
+            this.appleCareRadioButton.UseVisualStyleBackColor = true;
             // 
             // costGroupBox
             // 
-            this.costGroupBox.Controls.Add(this.textBox6);
-            this.costGroupBox.Controls.Add(this.textBox5);
-            this.costGroupBox.Controls.Add(this.textBox4);
+            this.costGroupBox.Controls.Add(this.totalTextBox);
+            this.costGroupBox.Controls.Add(this.taxTextBox);
+            this.costGroupBox.Controls.Add(this.subtotalTextBox);
             this.costGroupBox.Controls.Add(this.tradeInTextBox);
             this.costGroupBox.Controls.Add(this.accessoriesTextBox);
             this.costGroupBox.Controls.Add(this.basePriceTextBox);
@@ -345,41 +341,40 @@
             this.costGroupBox.Controls.Add(this.accessoriesLabel);
             this.costGroupBox.Controls.Add(this.basePriceLabel);
             this.costGroupBox.Font = new System.Drawing.Font("Lato", 11.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.costGroupBox.ForeColor = System.Drawing.SystemColors.WindowFrame;
+            this.costGroupBox.ForeColor = System.Drawing.SystemColors.Highlight;
             this.costGroupBox.Location = new System.Drawing.Point(391, 212);
             this.costGroupBox.Name = "costGroupBox";
             this.costGroupBox.Size = new System.Drawing.Size(216, 271);
             this.costGroupBox.TabIndex = 3;
             this.costGroupBox.TabStop = false;
             this.costGroupBox.Text = "Cost";
-            this.costGroupBox.Enter += new System.EventHandler(this.costGroupBox_Enter);
             // 
-            // textBox6
+            // totalTextBox
             // 
-            this.textBox6.Location = new System.Drawing.Point(110, 225);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.ReadOnly = true;
-            this.textBox6.Size = new System.Drawing.Size(95, 25);
-            this.textBox6.TabIndex = 11;
-            this.textBox6.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.totalTextBox.Location = new System.Drawing.Point(110, 225);
+            this.totalTextBox.Name = "totalTextBox";
+            this.totalTextBox.ReadOnly = true;
+            this.totalTextBox.Size = new System.Drawing.Size(95, 25);
+            this.totalTextBox.TabIndex = 11;
+            this.totalTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
-            // textBox5
+            // taxTextBox
             // 
-            this.textBox5.Location = new System.Drawing.Point(110, 173);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.ReadOnly = true;
-            this.textBox5.Size = new System.Drawing.Size(95, 25);
-            this.textBox5.TabIndex = 9;
-            this.textBox5.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.taxTextBox.Location = new System.Drawing.Point(110, 173);
+            this.taxTextBox.Name = "taxTextBox";
+            this.taxTextBox.ReadOnly = true;
+            this.taxTextBox.Size = new System.Drawing.Size(95, 25);
+            this.taxTextBox.TabIndex = 9;
+            this.taxTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
-            // textBox4
+            // subtotalTextBox
             // 
-            this.textBox4.Location = new System.Drawing.Point(110, 142);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.ReadOnly = true;
-            this.textBox4.Size = new System.Drawing.Size(95, 25);
-            this.textBox4.TabIndex = 7;
-            this.textBox4.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.subtotalTextBox.Location = new System.Drawing.Point(110, 142);
+            this.subtotalTextBox.Name = "subtotalTextBox";
+            this.subtotalTextBox.ReadOnly = true;
+            this.subtotalTextBox.Size = new System.Drawing.Size(95, 25);
+            this.subtotalTextBox.TabIndex = 7;
+            this.subtotalTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // tradeInTextBox
             // 
@@ -418,7 +413,6 @@
             this.totalLabel.Size = new System.Drawing.Size(42, 18);
             this.totalLabel.TabIndex = 10;
             this.totalLabel.Text = "Total";
-            this.totalLabel.Click += new System.EventHandler(this.label4_Click);
             // 
             // taxLabel
             // 
@@ -430,7 +424,6 @@
             this.taxLabel.Size = new System.Drawing.Size(64, 18);
             this.taxLabel.TabIndex = 8;
             this.taxLabel.Text = "13% Tax";
-            this.taxLabel.Click += new System.EventHandler(this.label4_Click);
             // 
             // tradeInLabel
             // 
@@ -443,7 +436,6 @@
             this.tradeInLabel.TabIndex = 4;
             this.tradeInLabel.Text = "(Less) &Trade In";
             this.tradeInToolTip.SetToolTip(this.tradeInLabel, "Please enter a deposit amount.");
-            this.tradeInLabel.Click += new System.EventHandler(this.label4_Click);
             // 
             // subtotalLabel
             // 
@@ -455,7 +447,6 @@
             this.subtotalLabel.Size = new System.Drawing.Size(64, 18);
             this.subtotalLabel.TabIndex = 6;
             this.subtotalLabel.Text = "Subtotal";
-            this.subtotalLabel.Click += new System.EventHandler(this.label4_Click);
             // 
             // accessoriesLabel
             // 
@@ -467,7 +458,6 @@
             this.accessoriesLabel.Size = new System.Drawing.Size(83, 18);
             this.accessoriesLabel.TabIndex = 2;
             this.accessoriesLabel.Text = "Accessories";
-            this.accessoriesLabel.Click += new System.EventHandler(this.label4_Click);
             // 
             // basePriceLabel
             // 
@@ -483,7 +473,7 @@
             // calculateButton
             // 
             this.calculateButton.Font = new System.Drawing.Font("Lato", 8.999999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.calculateButton.ForeColor = System.Drawing.SystemColors.WindowFrame;
+            this.calculateButton.ForeColor = System.Drawing.SystemColors.Highlight;
             this.calculateButton.Location = new System.Drawing.Point(391, 499);
             this.calculateButton.Name = "calculateButton";
             this.calculateButton.Padding = new System.Windows.Forms.Padding(10, 2, 10, 2);
@@ -491,11 +481,12 @@
             this.calculateButton.TabIndex = 4;
             this.calculateButton.Text = "&Calculate";
             this.calculateButton.UseVisualStyleBackColor = true;
+            this.calculateButton.Click += new System.EventHandler(this.calculateButton_Click);
             // 
             // clearButton
             // 
             this.clearButton.Font = new System.Drawing.Font("Lato", 8.999999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.clearButton.ForeColor = System.Drawing.SystemColors.WindowFrame;
+            this.clearButton.ForeColor = System.Drawing.SystemColors.Highlight;
             this.clearButton.Location = new System.Drawing.Point(482, 499);
             this.clearButton.Name = "clearButton";
             this.clearButton.Padding = new System.Windows.Forms.Padding(10, 2, 10, 2);
@@ -506,8 +497,9 @@
             // 
             // exitButton
             // 
+            this.exitButton.DialogResult = System.Windows.Forms.DialogResult.Cancel;
             this.exitButton.Font = new System.Drawing.Font("Lato", 8.999999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.exitButton.ForeColor = System.Drawing.SystemColors.WindowFrame;
+            this.exitButton.ForeColor = System.Drawing.SystemColors.Highlight;
             this.exitButton.Location = new System.Drawing.Point(551, 499);
             this.exitButton.Name = "exitButton";
             this.exitButton.Padding = new System.Windows.Forms.Padding(10, 2, 10, 2);
@@ -515,15 +507,14 @@
             this.exitButton.TabIndex = 6;
             this.exitButton.Text = "E&xit";
             this.exitButton.UseVisualStyleBackColor = true;
+            this.exitButton.Click += new System.EventHandler(this.exitButton_Click);
             // 
-            // tradeInToolTip
+            // RobellusForm
             // 
-            this.tradeInToolTip.Tag = "";
-            // 
-            // Form1
-            // 
+            this.AcceptButton = this.calculateButton;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.CancelButton = this.exitButton;
             this.ClientSize = new System.Drawing.Size(630, 563);
             this.Controls.Add(this.exitButton);
             this.Controls.Add(this.clearButton);
@@ -535,10 +526,11 @@
             this.Controls.Add(this.iPhoneGroupBox);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.MaximizeBox = false;
-            this.Name = "Form1";
+            this.Name = "RobellusForm";
             this.ShowIcon = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Robellus Iphone";
+            this.Text = "Robellus Iphone Purchase Tool";
+            this.Load += new System.EventHandler(this.RobellusForm_Load);
             this.iPhoneGroupBox.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.iPhonePictureBox)).EndInit();
             this.capacityGroupBox.ResumeLayout(false);
@@ -563,21 +555,21 @@
         private System.Windows.Forms.GroupBox colourGroupBox;
         private System.Windows.Forms.GroupBox modelGroupBox;
         private System.Windows.Forms.PictureBox iPhonePictureBox;
-        private System.Windows.Forms.RadioButton radioButton8;
-        private System.Windows.Forms.RadioButton radioButton7;
-        private System.Windows.Forms.RadioButton radioButton6;
-        private System.Windows.Forms.RadioButton radioButton5;
-        private System.Windows.Forms.RadioButton radioButton4;
-        private System.Windows.Forms.RadioButton radioButton3;
-        private System.Windows.Forms.RadioButton radioButton2;
-        private System.Windows.Forms.RadioButton radioButton1;
+        private System.Windows.Forms.RadioButton capacity128RadioButton;
+        private System.Windows.Forms.RadioButton capacity64RadioButton;
+        private System.Windows.Forms.RadioButton capacity16RadioButton;
+        private System.Windows.Forms.RadioButton silverRadioButton;
+        private System.Windows.Forms.RadioButton goldRadioButton;
+        private System.Windows.Forms.RadioButton spaceGreyRadioButton;
+        private System.Windows.Forms.RadioButton iPhone6SRadioButton;
+        private System.Windows.Forms.RadioButton iPhone6RadioButton;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.GroupBox accessoriesGroupBox;
         private System.Windows.Forms.GroupBox costGroupBox;
-        private System.Windows.Forms.RadioButton radioButton11;
-        private System.Windows.Forms.RadioButton radioButton10;
-        private System.Windows.Forms.RadioButton radioButton9;
+        private System.Windows.Forms.RadioButton screenProtectorRadioButton;
+        private System.Windows.Forms.RadioButton leatherCaseRadioButton;
+        private System.Windows.Forms.RadioButton appleCareRadioButton;
         private System.Windows.Forms.Label accessoriesLabel;
         private System.Windows.Forms.Label basePriceLabel;
         private System.Windows.Forms.Label totalLabel;
@@ -588,9 +580,9 @@
         private System.Windows.Forms.Button clearButton;
         private System.Windows.Forms.Button exitButton;
         private System.Windows.Forms.ToolTip tradeInToolTip;
-        private System.Windows.Forms.TextBox textBox6;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.TextBox totalTextBox;
+        private System.Windows.Forms.TextBox taxTextBox;
+        private System.Windows.Forms.TextBox subtotalTextBox;
         private System.Windows.Forms.TextBox tradeInTextBox;
         private System.Windows.Forms.TextBox accessoriesTextBox;
         private System.Windows.Forms.TextBox basePriceTextBox;

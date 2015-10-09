@@ -1,2 +1,10 @@
 C:\Users\Minimasci\Documents\Visual Studio 2015\Projects\Comp1004-Assignment1\WindowsFormsApplication1\bin\Debug\Comp1004-Assignment1.exe.config
 C:\Users\Minimasci\Documents\School 2015 Fall\Advanced Web\Repositories\comp1004-ass1\Comp1004-Assignment1\WindowsFormsApplication1\bin\Debug\Comp1004-Assignment1.exe.config
+C:\Users\Minimasci\Documents\School 2015 Fall\Advanced Web\Repositories\comp1004-ass1\Comp1004-Assignment1\WindowsFormsApplication1\bin\Debug\Comp1004-Assignment1.exe
+C:\Users\Minimasci\Documents\School 2015 Fall\Advanced Web\Repositories\comp1004-ass1\Comp1004-Assignment1\WindowsFormsApplication1\bin\Debug\Comp1004-Assignment1.pdb
+C:\Users\Minimasci\Documents\School 2015 Fall\Advanced Web\Repositories\comp1004-ass1\Comp1004-Assignment1\WindowsFormsApplication1\obj\Debug\Comp1004-Assignment1.csprojResolveAssemblyReference.cache
+C:\Users\Minimasci\Documents\School 2015 Fall\Advanced Web\Repositories\comp1004-ass1\Comp1004-Assignment1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.RobellusForm.resources
+C:\Users\Minimasci\Documents\School 2015 Fall\Advanced Web\Repositories\comp1004-ass1\Comp1004-Assignment1\WindowsFormsApplication1\obj\Debug\Assignment1.Properties.Resources.resources
+C:\Users\Minimasci\Documents\School 2015 Fall\Advanced Web\Repositories\comp1004-ass1\Comp1004-Assignment1\WindowsFormsApplication1\obj\Debug\Comp1004-Assignment1.csproj.GenerateResource.Cache
+C:\Users\Minimasci\Documents\School 2015 Fall\Advanced Web\Repositories\comp1004-ass1\Comp1004-Assignment1\WindowsFormsApplication1\obj\Debug\Comp1004-Assignment1.exe
+C:\Users\Minimasci\Documents\School 2015 Fall\Advanced Web\Repositories\comp1004-ass1\Comp1004-Assignment1\WindowsFormsApplication1\obj\Debug\Comp1004-Assignment1.pdb
