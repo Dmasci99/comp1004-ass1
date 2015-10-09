@@ -45,26 +45,26 @@
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.accessoriesGroupBox = new System.Windows.Forms.GroupBox();
-            this.costGroupBox = new System.Windows.Forms.GroupBox();
-            this.radioButton9 = new System.Windows.Forms.RadioButton();
-            this.radioButton10 = new System.Windows.Forms.RadioButton();
             this.radioButton11 = new System.Windows.Forms.RadioButton();
-            this.basePriceLabel = new System.Windows.Forms.Label();
-            this.accessoriesLabel = new System.Windows.Forms.Label();
-            this.subtotalLabel = new System.Windows.Forms.Label();
-            this.tradeInLabel = new System.Windows.Forms.Label();
-            this.taxLabel = new System.Windows.Forms.Label();
+            this.radioButton10 = new System.Windows.Forms.RadioButton();
+            this.radioButton9 = new System.Windows.Forms.RadioButton();
+            this.costGroupBox = new System.Windows.Forms.GroupBox();
+            this.textBox6 = new System.Windows.Forms.TextBox();
+            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.tradeInTextBox = new System.Windows.Forms.TextBox();
+            this.accessoriesTextBox = new System.Windows.Forms.TextBox();
+            this.basePriceTextBox = new System.Windows.Forms.TextBox();
             this.totalLabel = new System.Windows.Forms.Label();
+            this.taxLabel = new System.Windows.Forms.Label();
+            this.tradeInLabel = new System.Windows.Forms.Label();
+            this.subtotalLabel = new System.Windows.Forms.Label();
+            this.accessoriesLabel = new System.Windows.Forms.Label();
+            this.basePriceLabel = new System.Windows.Forms.Label();
             this.calculateButton = new System.Windows.Forms.Button();
             this.clearButton = new System.Windows.Forms.Button();
             this.exitButton = new System.Windows.Forms.Button();
             this.tradeInToolTip = new System.Windows.Forms.ToolTip(this.components);
-            this.basePriceTextBox = new System.Windows.Forms.TextBox();
-            this.accessoriesTextBox = new System.Windows.Forms.TextBox();
-            this.tradeInTextBox = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
             this.iPhoneGroupBox.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.iPhonePictureBox)).BeginInit();
             this.capacityGroupBox.SuspendLayout();
@@ -264,7 +264,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Lato", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(468, 541);
+            this.label2.Location = new System.Drawing.Point(457, 541);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(150, 13);
             this.label2.TabIndex = 0;
@@ -284,6 +284,51 @@
             this.accessoriesGroupBox.TabIndex = 2;
             this.accessoriesGroupBox.TabStop = false;
             this.accessoriesGroupBox.Text = "Accessories";
+            // 
+            // radioButton11
+            // 
+            this.radioButton11.AutoSize = true;
+            this.radioButton11.Font = new System.Drawing.Font("Lato", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton11.ForeColor = System.Drawing.SystemColors.WindowText;
+            this.radioButton11.Location = new System.Drawing.Point(6, 85);
+            this.radioButton11.Name = "radioButton11";
+            this.radioButton11.Padding = new System.Windows.Forms.Padding(5, 0, 0, 0);
+            this.radioButton11.Size = new System.Drawing.Size(128, 20);
+            this.radioButton11.TabIndex = 2;
+            this.radioButton11.TabStop = true;
+            this.radioButton11.Text = "&Screen Protector";
+            this.radioButton11.UseVisualStyleBackColor = true;
+            this.radioButton11.CheckedChanged += new System.EventHandler(this.radioButton11_CheckedChanged);
+            // 
+            // radioButton10
+            // 
+            this.radioButton10.AutoSize = true;
+            this.radioButton10.Font = new System.Drawing.Font("Lato", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton10.ForeColor = System.Drawing.SystemColors.WindowText;
+            this.radioButton10.Location = new System.Drawing.Point(6, 57);
+            this.radioButton10.Name = "radioButton10";
+            this.radioButton10.Padding = new System.Windows.Forms.Padding(5, 0, 0, 0);
+            this.radioButton10.Size = new System.Drawing.Size(108, 20);
+            this.radioButton10.TabIndex = 1;
+            this.radioButton10.TabStop = true;
+            this.radioButton10.Text = "L&eather Case";
+            this.radioButton10.UseVisualStyleBackColor = true;
+            this.radioButton10.CheckedChanged += new System.EventHandler(this.radioButton10_CheckedChanged);
+            // 
+            // radioButton9
+            // 
+            this.radioButton9.AutoSize = true;
+            this.radioButton9.Font = new System.Drawing.Font("Lato", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton9.ForeColor = System.Drawing.SystemColors.WindowText;
+            this.radioButton9.Location = new System.Drawing.Point(7, 29);
+            this.radioButton9.Name = "radioButton9";
+            this.radioButton9.Padding = new System.Windows.Forms.Padding(5, 0, 0, 0);
+            this.radioButton9.Size = new System.Drawing.Size(183, 20);
+            this.radioButton9.TabIndex = 0;
+            this.radioButton9.TabStop = true;
+            this.radioButton9.Text = "&AppleCare Protection Plan";
+            this.radioButton9.UseVisualStyleBackColor = true;
+            this.radioButton9.CheckedChanged += new System.EventHandler(this.radioButton9_CheckedChanged);
             // 
             // costGroupBox
             // 
@@ -309,85 +354,83 @@
             this.costGroupBox.Text = "Cost";
             this.costGroupBox.Enter += new System.EventHandler(this.costGroupBox_Enter);
             // 
-            // radioButton9
+            // textBox6
             // 
-            this.radioButton9.AutoSize = true;
-            this.radioButton9.Font = new System.Drawing.Font("Lato", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton9.ForeColor = System.Drawing.SystemColors.WindowText;
-            this.radioButton9.Location = new System.Drawing.Point(7, 29);
-            this.radioButton9.Name = "radioButton9";
-            this.radioButton9.Padding = new System.Windows.Forms.Padding(5, 0, 0, 0);
-            this.radioButton9.Size = new System.Drawing.Size(183, 20);
-            this.radioButton9.TabIndex = 0;
-            this.radioButton9.TabStop = true;
-            this.radioButton9.Text = "&AppleCare Protection Plan";
-            this.radioButton9.UseVisualStyleBackColor = true;
-            this.radioButton9.CheckedChanged += new System.EventHandler(this.radioButton9_CheckedChanged);
+            this.textBox6.Location = new System.Drawing.Point(110, 225);
+            this.textBox6.Name = "textBox6";
+            this.textBox6.ReadOnly = true;
+            this.textBox6.Size = new System.Drawing.Size(95, 25);
+            this.textBox6.TabIndex = 11;
+            this.textBox6.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
-            // radioButton10
+            // textBox5
             // 
-            this.radioButton10.AutoSize = true;
-            this.radioButton10.Font = new System.Drawing.Font("Lato", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton10.ForeColor = System.Drawing.SystemColors.WindowText;
-            this.radioButton10.Location = new System.Drawing.Point(6, 57);
-            this.radioButton10.Name = "radioButton10";
-            this.radioButton10.Padding = new System.Windows.Forms.Padding(5, 0, 0, 0);
-            this.radioButton10.Size = new System.Drawing.Size(108, 20);
-            this.radioButton10.TabIndex = 1;
-            this.radioButton10.TabStop = true;
-            this.radioButton10.Text = "L&eather Case";
-            this.radioButton10.UseVisualStyleBackColor = true;
-            this.radioButton10.CheckedChanged += new System.EventHandler(this.radioButton10_CheckedChanged);
+            this.textBox5.Location = new System.Drawing.Point(110, 173);
+            this.textBox5.Name = "textBox5";
+            this.textBox5.ReadOnly = true;
+            this.textBox5.Size = new System.Drawing.Size(95, 25);
+            this.textBox5.TabIndex = 9;
+            this.textBox5.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
-            // radioButton11
+            // textBox4
             // 
-            this.radioButton11.AutoSize = true;
-            this.radioButton11.Font = new System.Drawing.Font("Lato", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton11.ForeColor = System.Drawing.SystemColors.WindowText;
-            this.radioButton11.Location = new System.Drawing.Point(6, 85);
-            this.radioButton11.Name = "radioButton11";
-            this.radioButton11.Padding = new System.Windows.Forms.Padding(5, 0, 0, 0);
-            this.radioButton11.Size = new System.Drawing.Size(128, 20);
-            this.radioButton11.TabIndex = 2;
-            this.radioButton11.TabStop = true;
-            this.radioButton11.Text = "&Screen Protector";
-            this.radioButton11.UseVisualStyleBackColor = true;
-            this.radioButton11.CheckedChanged += new System.EventHandler(this.radioButton11_CheckedChanged);
+            this.textBox4.Location = new System.Drawing.Point(110, 142);
+            this.textBox4.Name = "textBox4";
+            this.textBox4.ReadOnly = true;
+            this.textBox4.Size = new System.Drawing.Size(95, 25);
+            this.textBox4.TabIndex = 7;
+            this.textBox4.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
-            // basePriceLabel
+            // tradeInTextBox
             // 
-            this.basePriceLabel.AutoSize = true;
-            this.basePriceLabel.ForeColor = System.Drawing.SystemColors.WindowText;
-            this.basePriceLabel.Location = new System.Drawing.Point(6, 31);
-            this.basePriceLabel.Name = "basePriceLabel";
-            this.basePriceLabel.Padding = new System.Windows.Forms.Padding(3, 0, 0, 0);
-            this.basePriceLabel.Size = new System.Drawing.Size(75, 18);
-            this.basePriceLabel.TabIndex = 0;
-            this.basePriceLabel.Text = "Base Price";
+            this.tradeInTextBox.Location = new System.Drawing.Point(110, 90);
+            this.tradeInTextBox.MaxLength = 10;
+            this.tradeInTextBox.Name = "tradeInTextBox";
+            this.tradeInTextBox.Size = new System.Drawing.Size(95, 25);
+            this.tradeInTextBox.TabIndex = 5;
+            this.tradeInTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
-            // accessoriesLabel
+            // accessoriesTextBox
             // 
-            this.accessoriesLabel.AutoSize = true;
-            this.accessoriesLabel.ForeColor = System.Drawing.SystemColors.WindowText;
-            this.accessoriesLabel.Location = new System.Drawing.Point(6, 63);
-            this.accessoriesLabel.Name = "accessoriesLabel";
-            this.accessoriesLabel.Padding = new System.Windows.Forms.Padding(3, 0, 0, 0);
-            this.accessoriesLabel.Size = new System.Drawing.Size(83, 18);
-            this.accessoriesLabel.TabIndex = 2;
-            this.accessoriesLabel.Text = "Accessories";
-            this.accessoriesLabel.Click += new System.EventHandler(this.label4_Click);
+            this.accessoriesTextBox.Location = new System.Drawing.Point(110, 59);
+            this.accessoriesTextBox.Name = "accessoriesTextBox";
+            this.accessoriesTextBox.ReadOnly = true;
+            this.accessoriesTextBox.Size = new System.Drawing.Size(95, 25);
+            this.accessoriesTextBox.TabIndex = 3;
+            this.accessoriesTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
-            // subtotalLabel
+            // basePriceTextBox
             // 
-            this.subtotalLabel.AutoSize = true;
-            this.subtotalLabel.ForeColor = System.Drawing.SystemColors.WindowText;
-            this.subtotalLabel.Location = new System.Drawing.Point(6, 145);
-            this.subtotalLabel.Name = "subtotalLabel";
-            this.subtotalLabel.Padding = new System.Windows.Forms.Padding(3, 0, 0, 0);
-            this.subtotalLabel.Size = new System.Drawing.Size(64, 18);
-            this.subtotalLabel.TabIndex = 6;
-            this.subtotalLabel.Text = "Subtotal";
-            this.subtotalLabel.Click += new System.EventHandler(this.label4_Click);
+            this.basePriceTextBox.Location = new System.Drawing.Point(110, 28);
+            this.basePriceTextBox.Name = "basePriceTextBox";
+            this.basePriceTextBox.ReadOnly = true;
+            this.basePriceTextBox.Size = new System.Drawing.Size(95, 25);
+            this.basePriceTextBox.TabIndex = 1;
+            this.basePriceTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            // 
+            // totalLabel
+            // 
+            this.totalLabel.AutoSize = true;
+            this.totalLabel.ForeColor = System.Drawing.SystemColors.WindowText;
+            this.totalLabel.Location = new System.Drawing.Point(6, 228);
+            this.totalLabel.Name = "totalLabel";
+            this.totalLabel.Padding = new System.Windows.Forms.Padding(3, 0, 0, 0);
+            this.totalLabel.Size = new System.Drawing.Size(42, 18);
+            this.totalLabel.TabIndex = 10;
+            this.totalLabel.Text = "Total";
+            this.totalLabel.Click += new System.EventHandler(this.label4_Click);
+            // 
+            // taxLabel
+            // 
+            this.taxLabel.AutoSize = true;
+            this.taxLabel.ForeColor = System.Drawing.SystemColors.WindowText;
+            this.taxLabel.Location = new System.Drawing.Point(6, 178);
+            this.taxLabel.Name = "taxLabel";
+            this.taxLabel.Padding = new System.Windows.Forms.Padding(3, 0, 0, 0);
+            this.taxLabel.Size = new System.Drawing.Size(64, 18);
+            this.taxLabel.TabIndex = 8;
+            this.taxLabel.Text = "13% Tax";
+            this.taxLabel.Click += new System.EventHandler(this.label4_Click);
             // 
             // tradeInLabel
             // 
@@ -402,29 +445,40 @@
             this.tradeInToolTip.SetToolTip(this.tradeInLabel, "Please enter a deposit amount.");
             this.tradeInLabel.Click += new System.EventHandler(this.label4_Click);
             // 
-            // taxLabel
+            // subtotalLabel
             // 
-            this.taxLabel.AutoSize = true;
-            this.taxLabel.ForeColor = System.Drawing.SystemColors.WindowText;
-            this.taxLabel.Location = new System.Drawing.Point(6, 178);
-            this.taxLabel.Name = "taxLabel";
-            this.taxLabel.Padding = new System.Windows.Forms.Padding(3, 0, 0, 0);
-            this.taxLabel.Size = new System.Drawing.Size(64, 18);
-            this.taxLabel.TabIndex = 8;
-            this.taxLabel.Text = "13% Tax";
-            this.taxLabel.Click += new System.EventHandler(this.label4_Click);
+            this.subtotalLabel.AutoSize = true;
+            this.subtotalLabel.ForeColor = System.Drawing.SystemColors.WindowText;
+            this.subtotalLabel.Location = new System.Drawing.Point(6, 145);
+            this.subtotalLabel.Name = "subtotalLabel";
+            this.subtotalLabel.Padding = new System.Windows.Forms.Padding(3, 0, 0, 0);
+            this.subtotalLabel.Size = new System.Drawing.Size(64, 18);
+            this.subtotalLabel.TabIndex = 6;
+            this.subtotalLabel.Text = "Subtotal";
+            this.subtotalLabel.Click += new System.EventHandler(this.label4_Click);
             // 
-            // totalLabel
+            // accessoriesLabel
             // 
-            this.totalLabel.AutoSize = true;
-            this.totalLabel.ForeColor = System.Drawing.SystemColors.WindowText;
-            this.totalLabel.Location = new System.Drawing.Point(6, 228);
-            this.totalLabel.Name = "totalLabel";
-            this.totalLabel.Padding = new System.Windows.Forms.Padding(3, 0, 0, 0);
-            this.totalLabel.Size = new System.Drawing.Size(42, 18);
-            this.totalLabel.TabIndex = 10;
-            this.totalLabel.Text = "Total";
-            this.totalLabel.Click += new System.EventHandler(this.label4_Click);
+            this.accessoriesLabel.AutoSize = true;
+            this.accessoriesLabel.ForeColor = System.Drawing.SystemColors.WindowText;
+            this.accessoriesLabel.Location = new System.Drawing.Point(6, 63);
+            this.accessoriesLabel.Name = "accessoriesLabel";
+            this.accessoriesLabel.Padding = new System.Windows.Forms.Padding(3, 0, 0, 0);
+            this.accessoriesLabel.Size = new System.Drawing.Size(83, 18);
+            this.accessoriesLabel.TabIndex = 2;
+            this.accessoriesLabel.Text = "Accessories";
+            this.accessoriesLabel.Click += new System.EventHandler(this.label4_Click);
+            // 
+            // basePriceLabel
+            // 
+            this.basePriceLabel.AutoSize = true;
+            this.basePriceLabel.ForeColor = System.Drawing.SystemColors.WindowText;
+            this.basePriceLabel.Location = new System.Drawing.Point(6, 31);
+            this.basePriceLabel.Name = "basePriceLabel";
+            this.basePriceLabel.Padding = new System.Windows.Forms.Padding(3, 0, 0, 0);
+            this.basePriceLabel.Size = new System.Drawing.Size(75, 18);
+            this.basePriceLabel.TabIndex = 0;
+            this.basePriceLabel.Text = "Base Price";
             // 
             // calculateButton
             // 
@@ -465,60 +519,6 @@
             // tradeInToolTip
             // 
             this.tradeInToolTip.Tag = "";
-            // 
-            // basePriceTextBox
-            // 
-            this.basePriceTextBox.Location = new System.Drawing.Point(110, 28);
-            this.basePriceTextBox.Name = "basePriceTextBox";
-            this.basePriceTextBox.ReadOnly = true;
-            this.basePriceTextBox.Size = new System.Drawing.Size(95, 25);
-            this.basePriceTextBox.TabIndex = 1;
-            this.basePriceTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
-            // 
-            // accessoriesTextBox
-            // 
-            this.accessoriesTextBox.Location = new System.Drawing.Point(110, 59);
-            this.accessoriesTextBox.Name = "accessoriesTextBox";
-            this.accessoriesTextBox.ReadOnly = true;
-            this.accessoriesTextBox.Size = new System.Drawing.Size(95, 25);
-            this.accessoriesTextBox.TabIndex = 3;
-            this.accessoriesTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
-            // 
-            // tradeInTextBox
-            // 
-            this.tradeInTextBox.Location = new System.Drawing.Point(110, 90);
-            this.tradeInTextBox.MaxLength = 10;
-            this.tradeInTextBox.Name = "tradeInTextBox";
-            this.tradeInTextBox.Size = new System.Drawing.Size(95, 25);
-            this.tradeInTextBox.TabIndex = 5;
-            this.tradeInTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
-            // 
-            // textBox4
-            // 
-            this.textBox4.Location = new System.Drawing.Point(110, 142);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.ReadOnly = true;
-            this.textBox4.Size = new System.Drawing.Size(95, 25);
-            this.textBox4.TabIndex = 7;
-            this.textBox4.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
-            // 
-            // textBox5
-            // 
-            this.textBox5.Location = new System.Drawing.Point(110, 173);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.ReadOnly = true;
-            this.textBox5.Size = new System.Drawing.Size(95, 25);
-            this.textBox5.TabIndex = 9;
-            this.textBox5.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
-            // 
-            // textBox6
-            // 
-            this.textBox6.Location = new System.Drawing.Point(110, 225);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.ReadOnly = true;
-            this.textBox6.Size = new System.Drawing.Size(95, 25);
-            this.textBox6.TabIndex = 11;
-            this.textBox6.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // Form1
             // 
