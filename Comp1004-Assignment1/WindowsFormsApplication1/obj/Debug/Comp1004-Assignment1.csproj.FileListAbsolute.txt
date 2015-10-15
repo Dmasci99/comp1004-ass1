@@ -8,3 +8,7 @@ C:\Users\Minimasci\Documents\School 2015 Fall\Advanced Web\Repositories\comp1004
 C:\Users\Minimasci\Documents\School 2015 Fall\Advanced Web\Repositories\comp1004-ass1\Comp1004-Assignment1\WindowsFormsApplication1\obj\Debug\Comp1004-Assignment1.csproj.GenerateResource.Cache
 C:\Users\Minimasci\Documents\School 2015 Fall\Advanced Web\Repositories\comp1004-ass1\Comp1004-Assignment1\WindowsFormsApplication1\obj\Debug\Comp1004-Assignment1.exe
 C:\Users\Minimasci\Documents\School 2015 Fall\Advanced Web\Repositories\comp1004-ass1\Comp1004-Assignment1\WindowsFormsApplication1\obj\Debug\Comp1004-Assignment1.pdb
+D:\_COLLAGE!!\Year 2, Semester 1\RAD (COMP 1004)\comp1004-ass1\Comp1004-Assignment1\WindowsFormsApplication1\bin\Debug\Comp1004-Assignment1.exe.config
+D:\_COLLAGE!!\Year 2, Semester 1\RAD (COMP 1004)\comp1004-ass1\Comp1004-Assignment1\WindowsFormsApplication1\obj\Debug\Comp1004-Assignment1.exe
+D:\_COLLAGE!!\Year 2, Semester 1\RAD (COMP 1004)\comp1004-ass1\Comp1004-Assignment1\WindowsFormsApplication1\obj\Debug\Comp1004-Assignment1.pdb
+D:\_COLLAGE!!\Year 2, Semester 1\RAD (COMP 1004)\comp1004-ass1\Comp1004-Assignment1\WindowsFormsApplication1\obj\Debug\Comp1004-Assignment1.csprojResolveAssemblyReference.cache
