@@ -45,9 +45,9 @@
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.accessoriesGroupBox = new System.Windows.Forms.GroupBox();
-            this.screenProtectorRadioButton = new System.Windows.Forms.RadioButton();
-            this.leatherCaseRadioButton = new System.Windows.Forms.RadioButton();
-            this.appleCareRadioButton = new System.Windows.Forms.RadioButton();
+            this.screenProtectorCheckBox = new System.Windows.Forms.CheckBox();
+            this.leatherCaseCheckBox = new System.Windows.Forms.CheckBox();
+            this.appleCareCheckBox = new System.Windows.Forms.CheckBox();
             this.costGroupBox = new System.Windows.Forms.GroupBox();
             this.totalTextBox = new System.Windows.Forms.TextBox();
             this.taxTextBox = new System.Windows.Forms.TextBox();
@@ -81,7 +81,7 @@
             this.iPhoneGroupBox.Controls.Add(this.capacityGroupBox);
             this.iPhoneGroupBox.Controls.Add(this.colourGroupBox);
             this.iPhoneGroupBox.Controls.Add(this.modelGroupBox);
-            this.iPhoneGroupBox.Font = new System.Drawing.Font("Lato", 11.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.iPhoneGroupBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.iPhoneGroupBox.ForeColor = System.Drawing.SystemColors.Highlight;
             this.iPhoneGroupBox.Location = new System.Drawing.Point(25, 74);
             this.iPhoneGroupBox.Name = "iPhoneGroupBox";
@@ -114,12 +114,12 @@
             // capacity128RadioButton
             // 
             this.capacity128RadioButton.AutoSize = true;
-            this.capacity128RadioButton.Font = new System.Drawing.Font("Lato", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.capacity128RadioButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.capacity128RadioButton.ForeColor = System.Drawing.SystemColors.WindowText;
             this.capacity128RadioButton.Location = new System.Drawing.Point(6, 81);
             this.capacity128RadioButton.Name = "capacity128RadioButton";
             this.capacity128RadioButton.Padding = new System.Windows.Forms.Padding(5, 0, 0, 0);
-            this.capacity128RadioButton.Size = new System.Drawing.Size(76, 20);
+            this.capacity128RadioButton.Size = new System.Drawing.Size(74, 20);
             this.capacity128RadioButton.TabIndex = 2;
             this.capacity128RadioButton.TabStop = true;
             this.capacity128RadioButton.Text = "12&8 GB";
@@ -128,12 +128,12 @@
             // capacity64RadioButton
             // 
             this.capacity64RadioButton.AutoSize = true;
-            this.capacity64RadioButton.Font = new System.Drawing.Font("Lato", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.capacity64RadioButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.capacity64RadioButton.ForeColor = System.Drawing.SystemColors.WindowText;
             this.capacity64RadioButton.Location = new System.Drawing.Point(6, 53);
             this.capacity64RadioButton.Name = "capacity64RadioButton";
             this.capacity64RadioButton.Padding = new System.Windows.Forms.Padding(5, 0, 0, 0);
-            this.capacity64RadioButton.Size = new System.Drawing.Size(68, 20);
+            this.capacity64RadioButton.Size = new System.Drawing.Size(67, 20);
             this.capacity64RadioButton.TabIndex = 1;
             this.capacity64RadioButton.TabStop = true;
             this.capacity64RadioButton.Text = "6&4 GB";
@@ -142,12 +142,12 @@
             // capacity16RadioButton
             // 
             this.capacity16RadioButton.AutoSize = true;
-            this.capacity16RadioButton.Font = new System.Drawing.Font("Lato", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.capacity16RadioButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.capacity16RadioButton.ForeColor = System.Drawing.SystemColors.WindowText;
             this.capacity16RadioButton.Location = new System.Drawing.Point(6, 25);
             this.capacity16RadioButton.Name = "capacity16RadioButton";
             this.capacity16RadioButton.Padding = new System.Windows.Forms.Padding(5, 0, 0, 0);
-            this.capacity16RadioButton.Size = new System.Drawing.Size(68, 20);
+            this.capacity16RadioButton.Size = new System.Drawing.Size(67, 20);
             this.capacity16RadioButton.TabIndex = 0;
             this.capacity16RadioButton.TabStop = true;
             this.capacity16RadioButton.Text = "&16 GB";
@@ -169,44 +169,47 @@
             // silverRadioButton
             // 
             this.silverRadioButton.AutoSize = true;
-            this.silverRadioButton.Font = new System.Drawing.Font("Lato", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.silverRadioButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.silverRadioButton.ForeColor = System.Drawing.SystemColors.WindowText;
             this.silverRadioButton.Location = new System.Drawing.Point(6, 81);
             this.silverRadioButton.Name = "silverRadioButton";
             this.silverRadioButton.Padding = new System.Windows.Forms.Padding(5, 0, 0, 0);
-            this.silverRadioButton.Size = new System.Drawing.Size(63, 20);
+            this.silverRadioButton.Size = new System.Drawing.Size(65, 20);
             this.silverRadioButton.TabIndex = 2;
             this.silverRadioButton.TabStop = true;
             this.silverRadioButton.Text = "Silve&r";
             this.silverRadioButton.UseVisualStyleBackColor = true;
+            this.silverRadioButton.CheckedChanged += new System.EventHandler(this.silverRadioButton_CheckedChanged);
             // 
             // goldRadioButton
             // 
             this.goldRadioButton.AutoSize = true;
-            this.goldRadioButton.Font = new System.Drawing.Font("Lato", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.goldRadioButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.goldRadioButton.ForeColor = System.Drawing.SystemColors.WindowText;
             this.goldRadioButton.Location = new System.Drawing.Point(6, 53);
             this.goldRadioButton.Name = "goldRadioButton";
             this.goldRadioButton.Padding = new System.Windows.Forms.Padding(5, 0, 0, 0);
-            this.goldRadioButton.Size = new System.Drawing.Size(58, 20);
+            this.goldRadioButton.Size = new System.Drawing.Size(60, 20);
             this.goldRadioButton.TabIndex = 1;
             this.goldRadioButton.TabStop = true;
             this.goldRadioButton.Text = "G&old";
             this.goldRadioButton.UseVisualStyleBackColor = true;
+            this.goldRadioButton.CheckedChanged += new System.EventHandler(this.goldRadioButton_CheckedChanged);
             // 
             // spaceGreyRadioButton
             // 
             this.spaceGreyRadioButton.AutoSize = true;
-            this.spaceGreyRadioButton.Font = new System.Drawing.Font("Lato", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.spaceGreyRadioButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.spaceGreyRadioButton.ForeColor = System.Drawing.SystemColors.WindowText;
             this.spaceGreyRadioButton.Location = new System.Drawing.Point(6, 25);
             this.spaceGreyRadioButton.Name = "spaceGreyRadioButton";
             this.spaceGreyRadioButton.Padding = new System.Windows.Forms.Padding(5, 0, 0, 0);
-            this.spaceGreyRadioButton.Size = new System.Drawing.Size(97, 20);
+            this.spaceGreyRadioButton.Size = new System.Drawing.Size(103, 20);
             this.spaceGreyRadioButton.TabIndex = 0;
             this.spaceGreyRadioButton.TabStop = true;
             this.spaceGreyRadioButton.Text = "Space &Grey";
             this.spaceGreyRadioButton.UseVisualStyleBackColor = true;
+            this.spaceGreyRadioButton.CheckedChanged += new System.EventHandler(this.spaceGreyRadioButton_CheckedChanged);
             // 
             // modelGroupBox
             // 
@@ -223,30 +226,32 @@
             // iPhone6SRadioButton
             // 
             this.iPhone6SRadioButton.AutoSize = true;
-            this.iPhone6SRadioButton.Font = new System.Drawing.Font("Lato", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.iPhone6SRadioButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.iPhone6SRadioButton.ForeColor = System.Drawing.SystemColors.WindowText;
             this.iPhone6SRadioButton.Location = new System.Drawing.Point(6, 54);
             this.iPhone6SRadioButton.Name = "iPhone6SRadioButton";
             this.iPhone6SRadioButton.Padding = new System.Windows.Forms.Padding(5, 0, 0, 0);
-            this.iPhone6SRadioButton.Size = new System.Drawing.Size(88, 20);
+            this.iPhone6SRadioButton.Size = new System.Drawing.Size(92, 20);
             this.iPhone6SRadioButton.TabIndex = 1;
             this.iPhone6SRadioButton.TabStop = true;
             this.iPhone6SRadioButton.Text = "iPhone 6&S";
             this.iPhone6SRadioButton.UseVisualStyleBackColor = true;
+            this.iPhone6SRadioButton.CheckedChanged += new System.EventHandler(this.iPhone6SRadioButton_CheckedChanged);
             // 
             // iPhone6RadioButton
             // 
             this.iPhone6RadioButton.AutoSize = true;
-            this.iPhone6RadioButton.Font = new System.Drawing.Font("Lato", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.iPhone6RadioButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.iPhone6RadioButton.ForeColor = System.Drawing.SystemColors.WindowText;
             this.iPhone6RadioButton.Location = new System.Drawing.Point(6, 26);
             this.iPhone6RadioButton.Name = "iPhone6RadioButton";
             this.iPhone6RadioButton.Padding = new System.Windows.Forms.Padding(5, 0, 0, 0);
-            this.iPhone6RadioButton.Size = new System.Drawing.Size(81, 20);
+            this.iPhone6RadioButton.Size = new System.Drawing.Size(83, 20);
             this.iPhone6RadioButton.TabIndex = 0;
             this.iPhone6RadioButton.TabStop = true;
             this.iPhone6RadioButton.Text = "iPhone &6";
             this.iPhone6RadioButton.UseVisualStyleBackColor = true;
+            this.iPhone6RadioButton.CheckedChanged += new System.EventHandler(this.iPhone6RadioButton_CheckedChanged);
             // 
             // label1
             // 
@@ -263,19 +268,19 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Lato", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(457, 541);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(150, 13);
+            this.label2.Size = new System.Drawing.Size(178, 13);
             this.label2.TabIndex = 0;
             this.label2.Text = "Sascha Friesen | Daniel Masci";
             // 
             // accessoriesGroupBox
             // 
-            this.accessoriesGroupBox.Controls.Add(this.screenProtectorRadioButton);
-            this.accessoriesGroupBox.Controls.Add(this.leatherCaseRadioButton);
-            this.accessoriesGroupBox.Controls.Add(this.appleCareRadioButton);
-            this.accessoriesGroupBox.Font = new System.Drawing.Font("Lato", 11.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.accessoriesGroupBox.Controls.Add(this.screenProtectorCheckBox);
+            this.accessoriesGroupBox.Controls.Add(this.leatherCaseCheckBox);
+            this.accessoriesGroupBox.Controls.Add(this.appleCareCheckBox);
+            this.accessoriesGroupBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.accessoriesGroupBox.ForeColor = System.Drawing.SystemColors.Highlight;
             this.accessoriesGroupBox.Location = new System.Drawing.Point(391, 74);
             this.accessoriesGroupBox.Name = "accessoriesGroupBox";
@@ -284,47 +289,35 @@
             this.accessoriesGroupBox.TabStop = false;
             this.accessoriesGroupBox.Text = "Accessories";
             // 
-            // screenProtectorRadioButton
+            // screenProtectorCheckBox
             // 
-            this.screenProtectorRadioButton.AutoSize = true;
-            this.screenProtectorRadioButton.Font = new System.Drawing.Font("Lato", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.screenProtectorRadioButton.ForeColor = System.Drawing.SystemColors.WindowText;
-            this.screenProtectorRadioButton.Location = new System.Drawing.Point(6, 85);
-            this.screenProtectorRadioButton.Name = "screenProtectorRadioButton";
-            this.screenProtectorRadioButton.Padding = new System.Windows.Forms.Padding(5, 0, 0, 0);
-            this.screenProtectorRadioButton.Size = new System.Drawing.Size(128, 20);
-            this.screenProtectorRadioButton.TabIndex = 2;
-            this.screenProtectorRadioButton.TabStop = true;
-            this.screenProtectorRadioButton.Text = "&Screen Protector";
-            this.screenProtectorRadioButton.UseVisualStyleBackColor = true;
+            this.screenProtectorCheckBox.AutoSize = true;
+            this.screenProtectorCheckBox.Location = new System.Drawing.Point(7, 82);
+            this.screenProtectorCheckBox.Name = "screenProtectorCheckBox";
+            this.screenProtectorCheckBox.Size = new System.Drawing.Size(140, 22);
+            this.screenProtectorCheckBox.TabIndex = 2;
+            this.screenProtectorCheckBox.Text = "Screen Protector";
+            this.screenProtectorCheckBox.UseVisualStyleBackColor = true;
             // 
-            // leatherCaseRadioButton
+            // leatherCaseCheckBox
             // 
-            this.leatherCaseRadioButton.AutoSize = true;
-            this.leatherCaseRadioButton.Font = new System.Drawing.Font("Lato", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.leatherCaseRadioButton.ForeColor = System.Drawing.SystemColors.WindowText;
-            this.leatherCaseRadioButton.Location = new System.Drawing.Point(6, 57);
-            this.leatherCaseRadioButton.Name = "leatherCaseRadioButton";
-            this.leatherCaseRadioButton.Padding = new System.Windows.Forms.Padding(5, 0, 0, 0);
-            this.leatherCaseRadioButton.Size = new System.Drawing.Size(108, 20);
-            this.leatherCaseRadioButton.TabIndex = 1;
-            this.leatherCaseRadioButton.TabStop = true;
-            this.leatherCaseRadioButton.Text = "L&eather Case";
-            this.leatherCaseRadioButton.UseVisualStyleBackColor = true;
+            this.leatherCaseCheckBox.AutoSize = true;
+            this.leatherCaseCheckBox.Location = new System.Drawing.Point(7, 53);
+            this.leatherCaseCheckBox.Name = "leatherCaseCheckBox";
+            this.leatherCaseCheckBox.Size = new System.Drawing.Size(115, 22);
+            this.leatherCaseCheckBox.TabIndex = 1;
+            this.leatherCaseCheckBox.Text = "Leather Case";
+            this.leatherCaseCheckBox.UseVisualStyleBackColor = true;
             // 
-            // appleCareRadioButton
+            // appleCareCheckBox
             // 
-            this.appleCareRadioButton.AutoSize = true;
-            this.appleCareRadioButton.Font = new System.Drawing.Font("Lato", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.appleCareRadioButton.ForeColor = System.Drawing.SystemColors.WindowText;
-            this.appleCareRadioButton.Location = new System.Drawing.Point(7, 29);
-            this.appleCareRadioButton.Name = "appleCareRadioButton";
-            this.appleCareRadioButton.Padding = new System.Windows.Forms.Padding(5, 0, 0, 0);
-            this.appleCareRadioButton.Size = new System.Drawing.Size(183, 20);
-            this.appleCareRadioButton.TabIndex = 0;
-            this.appleCareRadioButton.TabStop = true;
-            this.appleCareRadioButton.Text = "&AppleCare Protection Plan";
-            this.appleCareRadioButton.UseVisualStyleBackColor = true;
+            this.appleCareCheckBox.AutoSize = true;
+            this.appleCareCheckBox.Location = new System.Drawing.Point(9, 25);
+            this.appleCareCheckBox.Name = "appleCareCheckBox";
+            this.appleCareCheckBox.Size = new System.Drawing.Size(99, 22);
+            this.appleCareCheckBox.TabIndex = 0;
+            this.appleCareCheckBox.Text = "Apple Care";
+            this.appleCareCheckBox.UseVisualStyleBackColor = true;
             // 
             // costGroupBox
             // 
@@ -340,7 +333,7 @@
             this.costGroupBox.Controls.Add(this.subtotalLabel);
             this.costGroupBox.Controls.Add(this.accessoriesLabel);
             this.costGroupBox.Controls.Add(this.basePriceLabel);
-            this.costGroupBox.Font = new System.Drawing.Font("Lato", 11.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.costGroupBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.costGroupBox.ForeColor = System.Drawing.SystemColors.Highlight;
             this.costGroupBox.Location = new System.Drawing.Point(391, 212);
             this.costGroupBox.Name = "costGroupBox";
@@ -354,7 +347,7 @@
             this.totalTextBox.Location = new System.Drawing.Point(110, 225);
             this.totalTextBox.Name = "totalTextBox";
             this.totalTextBox.ReadOnly = true;
-            this.totalTextBox.Size = new System.Drawing.Size(95, 25);
+            this.totalTextBox.Size = new System.Drawing.Size(95, 24);
             this.totalTextBox.TabIndex = 11;
             this.totalTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
@@ -363,7 +356,7 @@
             this.taxTextBox.Location = new System.Drawing.Point(110, 173);
             this.taxTextBox.Name = "taxTextBox";
             this.taxTextBox.ReadOnly = true;
-            this.taxTextBox.Size = new System.Drawing.Size(95, 25);
+            this.taxTextBox.Size = new System.Drawing.Size(95, 24);
             this.taxTextBox.TabIndex = 9;
             this.taxTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
@@ -372,7 +365,7 @@
             this.subtotalTextBox.Location = new System.Drawing.Point(110, 142);
             this.subtotalTextBox.Name = "subtotalTextBox";
             this.subtotalTextBox.ReadOnly = true;
-            this.subtotalTextBox.Size = new System.Drawing.Size(95, 25);
+            this.subtotalTextBox.Size = new System.Drawing.Size(95, 24);
             this.subtotalTextBox.TabIndex = 7;
             this.subtotalTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
@@ -381,7 +374,7 @@
             this.tradeInTextBox.Location = new System.Drawing.Point(110, 90);
             this.tradeInTextBox.MaxLength = 10;
             this.tradeInTextBox.Name = "tradeInTextBox";
-            this.tradeInTextBox.Size = new System.Drawing.Size(95, 25);
+            this.tradeInTextBox.Size = new System.Drawing.Size(95, 24);
             this.tradeInTextBox.TabIndex = 5;
             this.tradeInTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
@@ -390,7 +383,7 @@
             this.accessoriesTextBox.Location = new System.Drawing.Point(110, 59);
             this.accessoriesTextBox.Name = "accessoriesTextBox";
             this.accessoriesTextBox.ReadOnly = true;
-            this.accessoriesTextBox.Size = new System.Drawing.Size(95, 25);
+            this.accessoriesTextBox.Size = new System.Drawing.Size(95, 24);
             this.accessoriesTextBox.TabIndex = 3;
             this.accessoriesTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
@@ -399,7 +392,7 @@
             this.basePriceTextBox.Location = new System.Drawing.Point(110, 28);
             this.basePriceTextBox.Name = "basePriceTextBox";
             this.basePriceTextBox.ReadOnly = true;
-            this.basePriceTextBox.Size = new System.Drawing.Size(95, 25);
+            this.basePriceTextBox.Size = new System.Drawing.Size(95, 24);
             this.basePriceTextBox.TabIndex = 1;
             this.basePriceTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
@@ -410,7 +403,7 @@
             this.totalLabel.Location = new System.Drawing.Point(6, 228);
             this.totalLabel.Name = "totalLabel";
             this.totalLabel.Padding = new System.Windows.Forms.Padding(3, 0, 0, 0);
-            this.totalLabel.Size = new System.Drawing.Size(42, 18);
+            this.totalLabel.Size = new System.Drawing.Size(44, 18);
             this.totalLabel.TabIndex = 10;
             this.totalLabel.Text = "Total";
             // 
@@ -421,7 +414,7 @@
             this.taxLabel.Location = new System.Drawing.Point(6, 178);
             this.taxLabel.Name = "taxLabel";
             this.taxLabel.Padding = new System.Windows.Forms.Padding(3, 0, 0, 0);
-            this.taxLabel.Size = new System.Drawing.Size(64, 18);
+            this.taxLabel.Size = new System.Drawing.Size(68, 18);
             this.taxLabel.TabIndex = 8;
             this.taxLabel.Text = "13% Tax";
             // 
@@ -432,7 +425,7 @@
             this.tradeInLabel.Location = new System.Drawing.Point(6, 95);
             this.tradeInLabel.Name = "tradeInLabel";
             this.tradeInLabel.Padding = new System.Windows.Forms.Padding(3, 0, 0, 0);
-            this.tradeInLabel.Size = new System.Drawing.Size(98, 18);
+            this.tradeInLabel.Size = new System.Drawing.Size(110, 18);
             this.tradeInLabel.TabIndex = 4;
             this.tradeInLabel.Text = "(Less) &Trade In";
             this.tradeInToolTip.SetToolTip(this.tradeInLabel, "Please enter a deposit amount.");
@@ -444,7 +437,7 @@
             this.subtotalLabel.Location = new System.Drawing.Point(6, 145);
             this.subtotalLabel.Name = "subtotalLabel";
             this.subtotalLabel.Padding = new System.Windows.Forms.Padding(3, 0, 0, 0);
-            this.subtotalLabel.Size = new System.Drawing.Size(64, 18);
+            this.subtotalLabel.Size = new System.Drawing.Size(65, 18);
             this.subtotalLabel.TabIndex = 6;
             this.subtotalLabel.Text = "Subtotal";
             // 
@@ -455,7 +448,7 @@
             this.accessoriesLabel.Location = new System.Drawing.Point(6, 63);
             this.accessoriesLabel.Name = "accessoriesLabel";
             this.accessoriesLabel.Padding = new System.Windows.Forms.Padding(3, 0, 0, 0);
-            this.accessoriesLabel.Size = new System.Drawing.Size(83, 18);
+            this.accessoriesLabel.Size = new System.Drawing.Size(93, 18);
             this.accessoriesLabel.TabIndex = 2;
             this.accessoriesLabel.Text = "Accessories";
             // 
@@ -466,13 +459,13 @@
             this.basePriceLabel.Location = new System.Drawing.Point(6, 31);
             this.basePriceLabel.Name = "basePriceLabel";
             this.basePriceLabel.Padding = new System.Windows.Forms.Padding(3, 0, 0, 0);
-            this.basePriceLabel.Size = new System.Drawing.Size(75, 18);
+            this.basePriceLabel.Size = new System.Drawing.Size(83, 18);
             this.basePriceLabel.TabIndex = 0;
             this.basePriceLabel.Text = "Base Price";
             // 
             // calculateButton
             // 
-            this.calculateButton.Font = new System.Drawing.Font("Lato", 8.999999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.calculateButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.999999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.calculateButton.ForeColor = System.Drawing.SystemColors.Highlight;
             this.calculateButton.Location = new System.Drawing.Point(391, 499);
             this.calculateButton.Name = "calculateButton";
@@ -485,7 +478,7 @@
             // 
             // clearButton
             // 
-            this.clearButton.Font = new System.Drawing.Font("Lato", 8.999999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.clearButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.999999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.clearButton.ForeColor = System.Drawing.SystemColors.Highlight;
             this.clearButton.Location = new System.Drawing.Point(482, 499);
             this.clearButton.Name = "clearButton";
@@ -499,7 +492,7 @@
             // exitButton
             // 
             this.exitButton.DialogResult = System.Windows.Forms.DialogResult.Cancel;
-            this.exitButton.Font = new System.Drawing.Font("Lato", 8.999999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.exitButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.999999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.exitButton.ForeColor = System.Drawing.SystemColors.Highlight;
             this.exitButton.Location = new System.Drawing.Point(551, 499);
             this.exitButton.Name = "exitButton";
@@ -568,9 +561,6 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.GroupBox accessoriesGroupBox;
         private System.Windows.Forms.GroupBox costGroupBox;
-        private System.Windows.Forms.RadioButton screenProtectorRadioButton;
-        private System.Windows.Forms.RadioButton leatherCaseRadioButton;
-        private System.Windows.Forms.RadioButton appleCareRadioButton;
         private System.Windows.Forms.Label accessoriesLabel;
         private System.Windows.Forms.Label basePriceLabel;
         private System.Windows.Forms.Label totalLabel;
@@ -586,7 +576,11 @@
         private System.Windows.Forms.TextBox subtotalTextBox;
         private System.Windows.Forms.TextBox tradeInTextBox;
         private System.Windows.Forms.TextBox accessoriesTextBox;
+        private System.Windows.Forms.CheckBox screenProtectorCheckBox;
+        private System.Windows.Forms.CheckBox leatherCaseCheckBox;
+        private System.Windows.Forms.CheckBox appleCareCheckBox;
         private System.Windows.Forms.TextBox basePriceTextBox;
+
     }
 }
 

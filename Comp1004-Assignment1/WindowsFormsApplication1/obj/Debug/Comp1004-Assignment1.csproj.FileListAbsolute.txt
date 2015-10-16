@@ -17,3 +17,4 @@ C:\Users\Minimasci\Downloads\comp1004-ass1-48729ae5ff6730d66d7929f4db5823ad75ff3
 C:\Users\Minimasci\Downloads\comp1004-ass1-48729ae5ff6730d66d7929f4db5823ad75ff31ea\comp1004-ass1-48729ae5ff6730d66d7929f4db5823ad75ff31ea\Comp1004-Assignment1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.RobellusForm.resources
 C:\Users\Minimasci\Downloads\comp1004-ass1-48729ae5ff6730d66d7929f4db5823ad75ff31ea\comp1004-ass1-48729ae5ff6730d66d7929f4db5823ad75ff31ea\Comp1004-Assignment1\WindowsFormsApplication1\obj\Debug\Assignment1.Properties.Resources.resources
 C:\Users\Minimasci\Downloads\comp1004-ass1-48729ae5ff6730d66d7929f4db5823ad75ff31ea\comp1004-ass1-48729ae5ff6730d66d7929f4db5823ad75ff31ea\Comp1004-Assignment1\WindowsFormsApplication1\obj\Debug\Comp1004-Assignment1.csproj.GenerateResource.Cache
+D:\_COLLAGE!!\Year 2, Semester 1\RAD (COMP 1004)\comp1004-ass1\Comp1004-Assignment1\WindowsFormsApplication1\bin\Debug\Comp1004-Assignment1.exe.config
